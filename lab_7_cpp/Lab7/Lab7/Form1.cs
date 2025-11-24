@@ -42,7 +42,7 @@ namespace Lab7
             }
             public double l_kola { get { return l; } }
             public double v_kuli { get { return v; } }
-            public double s_kuli { get { return v; } }
+            public double s_kuli { get { return s; } }
             public double masa { get { return m; } set { m = value; } }
 
             virtual public double kotytys(double t, double v)
